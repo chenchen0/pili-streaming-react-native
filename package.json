@@ -1,32 +1,34 @@
 {
-  "name": "pili-streaming-react-native",
-  "version": "2.0.0",
-  "description": "",
-  "main": "index.js",
-  "files": [
-    "android",
-    "ios",
-    "js",
-    "index.js"
-  ],
-  "scripts": {
-    "build": "rollup -c rollup.config.js",
-    "prepublishOnly": "npm run build"
-  },
-  "repository": {
+  "_from": "git://github.com/chenchen0/pili-streaming-react-native.git#master",
+  "_id": "pili-streaming-react-native@2.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/pili-streaming-react-native",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "git+https://github.com/pili-engineering/pili-streaming-react-native.git"
+    "raw": "git://github.com:chenchen0/pili-streaming-react-native.git#master",
+    "rawSpec": "git://github.com:chenchen0/pili-streaming-react-native.git#master",
+    "saveSpec": "git://github.com/chenchen0/pili-streaming-react-native.git#master",
+    "fetchSpec": "git://github.com/chenchen0/pili-streaming-react-native.git",
+    "gitCommittish": "master"
   },
-  "keywords": [
-    "pili",
-    "react-native"
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
-  "author": "qiniu",
-  "license": "ISC",
+  "_resolved": "git://github.com/chenchen0/pili-streaming-react-native.git#7b4c97e1ff407793d74cff07306d2375e65794ca",
+  "_spec": "git://github.com:chenchen0/pili-streaming-react-native.git#master",
+  "_where": "/Users/a/Code/yanjie-app",
+  "author": {
+    "name": "qiniu"
+  },
   "bugs": {
     "url": "https://github.com/pili-engineering/pili-streaming-react-native/issues"
   },
-  "homepage": "https://github.com/pili-engineering/pili-streaming-react-native#readme",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "### 概述",
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@babel/plugin-proposal-class-properties": "^7.7.4",
@@ -35,5 +37,28 @@
     "rollup": "^1.27.8",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-node-resolve": "^5.2.0"
-  }
+  },
+  "files": [
+    "android",
+    "ios",
+    "js",
+    "index.js"
+  ],
+  "homepage": "https://github.com/pili-engineering/pili-streaming-react-native#readme",
+  "keywords": [
+    "pili",
+    "react-native"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "pili-streaming-react-native",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pili-engineering/pili-streaming-react-native.git"
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "prepublishOnly": "npm run build"
+  },
+  "version": "2.0.0"
 }
